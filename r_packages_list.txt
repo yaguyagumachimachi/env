@@ -1,0 +1,5 @@
+tidyverse
+tidymodels
+languageserver
+remotes
+devtools

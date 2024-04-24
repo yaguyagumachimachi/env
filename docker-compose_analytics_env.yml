@@ -1,0 +1,22 @@
+version: '3'
+services:
+  r_python_env:
+    build:
+      context: C:\Users\ynwa1\Documents\study\create_env\analytics_dockerfiles
+      dockerfile: ./analytics_env.dockerfile
+      args:
+          USERNAME: "analytics_user"
+          GROUPNAME: "user"
+          PASSWORD: "yamayama"
+          PYTHON_VERSION: "3.10.4"
+    # image: tidyverse:3.6.3_jp
+    container_name: analytics_env
+    # environment:
+      #任意のパスワードを設定する
+      # - PASSWORD=＊＊＊＊＊
+    ports:
+      - 8785:8787
+    volumes:
+      - C:/Users/ynwa1/Documents/study:/home/analytics_user
+    tty: true
+    stdin_open: true
