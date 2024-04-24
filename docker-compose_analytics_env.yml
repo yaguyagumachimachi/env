@@ -7,7 +7,7 @@ services:
       args:
           USERNAME: "analytics_user"
           GROUPNAME: "user"
-          PASSWORD: "yamayama"
+          PASSWORD: "password"
           PYTHON_VERSION: "3.10.4"
     # image: tidyverse:3.6.3_jp
     container_name: analytics_env
@@ -17,6 +17,6 @@ services:
     ports:
       - 8785:8787
     volumes:
-      - C:/Users/ynwa1/Documents/study:/home/analytics_user
+      - C:/Users/XXXXX:/home/analytics_user
     tty: true
     stdin_open: true
