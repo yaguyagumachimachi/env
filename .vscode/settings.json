@@ -1,0 +1,45 @@
+{
+    "livePreview.defaultPreviewPath": "/Meta Front-End Developer Professional Certificate/week3assignment/review/review1/Lucky Shrub.html",
+    "[python]": { 
+        "editor.tabSize": 4,
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+    },
+    "python.terminal.activateEnvironment": true,
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./study_rag",
+        "-p",
+        "test*.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true,
+    "python.analysis.extraPaths" : [
+        "/home/rstudio/openai/.venv_openai/lib/python3.9/site-packages/"
+    ],
+    "[r]": { 
+        "editor.tabSize": 2,
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    },
+    "[rmd]": { 
+        "editor.tabSize": 2,
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    },
+    "[qmd]": { 
+        "editor.tabSize": 2,
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.formatOnPaste": true
+    },
+    "remote.autoForwardPortsSource": "hybrid",
+    "accessibility.signals.notebookCellCompleted": {
+        "sound": "on"
+    }
+    
+}

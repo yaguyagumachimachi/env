@@ -1,0 +1,18 @@
+{
+    "recommendations": [
+        "quarto.quarto",
+        "ibm.output-colorizer",
+        "reditorsupport.r",
+        "rdebugger.r-debugger",
+        "ms-toolsai.jupyter",
+        "ms-python.vscode-pylance",
+        "ms-python.python",
+        "ms-python.flake8",
+        "mhutchie.git-graph",
+        "eamodio.gitlens",
+        "pkief.material-icon-theme",
+        "oderwat.indent-rainbow",
+        "rogalmic.bash-debug",
+        "ritwickdey.LiveServer"
+    ]
+}

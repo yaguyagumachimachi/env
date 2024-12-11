@@ -1,0 +1,68 @@
+{
+	"folders": [
+		{"path": "./.."},
+		{"path": "/home/rstudio"}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"titleBar.activeBackground": "#1d4d22",
+			"titleBar.activeForeground": "#fdfafa",
+			"activityBar.background": "#1d4d22",
+			"activityBar.foreground": "#fdfafa",
+			"statusBar.background": "#1d4d22",
+			"statusBar.foreground": "#fdfafa",
+			"statusBarItem.remoteBackground": "#1d324d",
+			"statusBarItem.remoteForeground": "#fdfafa"			
+		},
+		"workbench.colorTheme": "Default Dark+",
+		"workbench.iconTheme": "material-icon-theme",
+		"quarto.mathjax.theme": "dark",
+		// "liveServer.settings.multiRootWorkspaceName": "openai",
+		"accessibility.signals.notebookCellCompleted": {
+			"sound": "on"
+		},
+		"accessibility.signals.notebookCellFailed": {
+			"sound": "on"
+		},
+		
+}
+
+		// "workbench.startupEditor": "newUntitledFile",
+		// "python.pythonPath": "kanazawa_env/bin/python",
+		// "python.envFile": "${workspaceFolder}/.env",
+		// "git.autofetch": true,
+		// "editor.suggestSelection": "first",
+		// "python.linting.pylintEnabled": false,
+		// "python.linting.flake8Enabled": true,
+		// "python.linting.flake8Args": ["--max-line-length=120"],
+		// "editor.formatOnSave": false,
+		// "files.exclude": {
+		// 	"**/__pycache__": true,
+		// 	"**/.ipynb_checkpoints": true,
+		// 	"**/node_modules": true,
+		// 	"**/package-lock.json": true
+		// },
+		// "git.enableSmartCommit": true,
+		// "diffEditor.ignoreTrimWhitespace": false,
+		// "html.format.wrapAttributes": "preserve",
+		// "python.defaultInterpreterPath": "/usr/bin/python3",
+		// "python.linting.enabled": true,
+		// "python.terminal.activateEnvironment": true,
+		// "git.ignoreLimitWarning": true
+	// },
+	// "launch": {
+	// 	"version": "0.2.0",
+	// 	"configurations": [
+
+	// 		{
+	// 			"name": "Python: Current File",
+	// 			"type": "python",
+	// 			"request": "launch",
+	// 			"program": "${fileBasenameNoExtension}",
+	// 			"console": "integratedTerminal",
+	// 			"cwd": "${fileDirname}"
+				
+	// 		}
+	// 	]
+	// }
+}
