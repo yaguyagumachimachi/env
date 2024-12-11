@@ -1,0 +1,1 @@
+visual studio設定ファイル断片
